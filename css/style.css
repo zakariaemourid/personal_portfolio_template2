@@ -1,3 +1,6 @@
+:root {
+  --orange: #ef6d58;
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +20,7 @@ header {
   padding: 20px;
 }
 .brand {
-  color: #ef6c57;
+  color: var(--orange);
   width: 15%;
   font-size: 2rem;
   font-weight: 400;
@@ -66,7 +69,7 @@ main {
   width: 50%;
 }
 .main-name {
-  color: #ef6d58;
+  color: var(--orange);
   letter-spacing: 2px;
 }
 .main-text {
@@ -85,7 +88,68 @@ main {
   font-weight: 800;
   margin-top: 2rem;
   color: white;
-  background-color: #ef6c57;
+  background-color: var(--orange);
   padding: 1rem 1.5rem;
 }
+section {
+  background-color: #fdf0e9;
+  color: #28293e;
+  margin-top: 200px;
+  padding: 6rem 8rem;
+}
+.section-title-container {
+  display: flex;
+  justify-content: center;
+}
+.section-title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--orange);
+}
+.section-title p {
+  color: #391400;
+  margin-top: 2rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: center;
+}
 /* END MAIN */
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.2rem 0;
+}
+.service {
+  border: 1px solid #f3d1bf;
+  padding: 3rem;
+}
+.service-logo {
+  display: flex;
+}
+.service-logo i {
+  margin-right: 10px;
+  color: white;
+  font-size: 1.5rem;
+  background-color: var(--orange);
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+.logo-text-srv {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 25px;
+  font-weight: 800;
+}
+.service-description {
+  margin-top: 2rem;
+  color: #707070;
+}
+.want-more-servise {
+  display: flex;
+  justify-content: center;
+  color: #707070;
+}
+.want-more-servise a {
+  color: #391400;
+}
